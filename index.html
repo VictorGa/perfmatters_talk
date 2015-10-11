@@ -131,6 +131,10 @@
 					<li class="fragment">Batch requests (specially Tracking)</li>
 				</ul>
 			</section>
+			<section>
+				<h2 class="network">LATENCY IN PHONES</h2>
+				<img src="img/latency.png"/>
+			</section>
 		</section>
 
 		<section>
@@ -138,8 +142,8 @@
 				<h2 class="compute">COMPUTE</h2>
 				<ul>
 					<li class="fragment">Don't micromanage</li>
-					<li class="fragment">Keep main loop clean</li>
 					<li class="fragment">Use RAF (request animation frame)</li>
+					<li class="fragment">Keep main loop clean</li>
 					<li class="fragment">Avoid changing styles in event handlers</li>
 					<li class="fragment">Careful with GC</li>
 
@@ -162,10 +166,6 @@
 			<section>
 				<h3>Detect leaks</h3>
 				<img src="img/leak.png"/>
-			</section>
-			<section data-background="#ffffff">
-				<h3>Careful with Closures</h3>
-
 			</section>
 		</section>
 
@@ -200,7 +200,7 @@
 							<ul class="under-box paint">
 								<li>border-bottom-color</li>
 								<li>background</li>
-								<li>width</li>
+								<li>transform-origin</li>
 								<li>height</li>
 								<li>color</li>
 							</ul>
@@ -208,14 +208,13 @@
 						<div class="wrapper-step fragment">
 							<div class="step green-dark composite" data-step='composite'>Composite</div>
 							<ul class="under-box composite">
-								<li>border</li>
-								<li>font</li>
-								<li>display</li>
-								<li>top,left,..</li>
+								<li>opacity</li>
+								<li>perspective</li>
+								<li>transform</li>
 							</ul>
 						</div>
 					</div>
-					<p class="fragment" style="top: 100px; position: relative;"><a href="http://www.csstrigers.com" target="_blank">csstrigers.com</a></p>
+					<p class="fragment" style="top: 100px; position: relative;"><a href="http://www.http://csstriggers.com/" target="_blank">csstrigers.com</a></p>
 
 				</section>
 				<section>
@@ -247,7 +246,7 @@
 								element3.style.height = (h1 * 2) + 'px';
 							});
 						</code></pre>
-				<a target="_blank" href="http://jsbin.com/ebicuJu/2/edit?js,output">Example</a>
+				<a target="_blank" href="http://wilsonpage.github.io/fastdom/examples/animation.html">Example</a>
 			</section>
 			<section>
 				<h2 class="render">THIS IS FLOW</h2>
@@ -293,13 +292,13 @@
 				<li class="fragment">Avoid premature optimization</li>
 				<li class="fragment">Design, code and measure.</li>
 				<li class="fragment">Analyse project's nature and use it in your advantage.</li>
-				<li class="fragment">Work with the browser</li>
-				<li class="fragment">Use the tools available</li>
+				<li class="fragment">Work with the browser, not against it</li>
+				<li class="fragment">"Tools not rules". Paul Lewis</li>
 			</ul>
 		</section>
 
 		<section data-background="#000000" class='emphasi'>
-			<h2>CREATE THE HABIT OF MEASURING!</h2>
+			<h2>CREATE A GREEN HABIT OF MEASURING!</h2>
 		</section>
 
 		<section>
