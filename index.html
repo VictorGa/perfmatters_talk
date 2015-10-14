@@ -45,9 +45,6 @@
 		<section>
 			<h1>Performance in Web</h1>
 			<h3>General performance's lessons learnt</h3>
-			<p>
-				<a href="http://www.victorga.com" target="_blank">Victor Garrido</a>/<a href="https://twitter.com/vic_garrido">@vic_garrido</a> <br> Frontend Engineer <a href="http://www.mediamonks.com" target="_blank">@Mediamonks</a>
-			</p>
 		</section>
 		<section>
 			<section class="quote" data-background="#ffffff">
@@ -88,7 +85,7 @@
 			</section>
 			<section>
 				<h2 class="network">LATENCY IN PHONES</h2>
-				<img src="img/latency.png"/>
+				<img src="img/latency.png" style="width:80%;"/>
 			</section>
 		</section>
 
@@ -99,9 +96,7 @@
 					<li class="fragment">Don't micromanage</li>
 					<li class="fragment">Use RAF (request animation frame)</li>
 					<li class="fragment">Keep main loop clean</li>
-					<li class="fragment">Avoid changing styles in event handlers</li>
 					<li class="fragment">Careful with GC</li>
-
 					<!-- If you are doing for example a parallax web don't change styles inside of the scroll event handler, keep the information and change it inside the RAF,
 						because events are executed prior javascript, and that would force sync-layout. -->
 				</ul>
@@ -204,7 +199,7 @@
 				<a target="_blank" href="http://wilsonpage.github.io/fastdom/examples/animation.html">Example</a>
 			</section>
 			<section>
-				<h2 class="render">THIS IS FLOW</h2>
+				<h2 class="render">Avoiding dom rendering</h2>
 				<img class='flipgif' src="img/scrolling.gif"/>
 				<a target="_blank" href="http://engineering.flipboard.com/2015/02/mobile-web/">How Flipboard did it</a>
 			</section>
@@ -253,7 +248,7 @@
 		</section>
 
 		<section data-background="#000000" class='emphasi'>
-			<h2>CREATE A GREEN HABIT OF MEASURING!</h2>
+			<h2>CREATE THE HABIT OF MEASURING!</h2>
 		</section>
 
 		<section>
@@ -266,9 +261,10 @@
 				<li><a href="http://addyosmani.com/blog/video-javascript-memory-management-masterclass/">JavaScript Memory Management Masterclass - Addy Osmani</a></li>
 				<li><a href="https://aerotwist.com/blog/moar-performance/">Moar Performance! - Paul Lewis</a></li>
 				<li><a href="http://www.youtube.com/watch?v=8aGhZQkoFbQ">What the heck is the event loop anyway? - Philip Roberts</a></li>
-				<li><a href="https://www.udacity.com/course/browser-rendering-optimization--ud860"> Browser Rendering Optimization, Udacy course</a></li>
-				<li><a href="http://addyosmani.com/blog/chrome-devtools-state-of-the-union-2015/"> DevTools, State Of The Union - Addy Osmani</a></li>
-				<li><a href="https://developers.google.com/web/fundamentals/performance/rendering/?hl=en"> Rendering Performance by Google</a></li>
+				<li><a href="https://www.udacity.com/course/browser-rendering-optimization--ud860">Browser Rendering Optimization, Udacy course</a></li>
+				<li><a href="http://addyosmani.com/blog/chrome-devtools-state-of-the-union-2015/">DevTools, State Of The Union - Addy Osmani</a></li>
+				<li><a href="https://developers.google.com/web/fundamentals/performance/rendering/?hl=en">Rendering Performance by Google</a></li>
+				<li><a href="https://www.youtube.com/watch?v=RCFQu0hK6bU">The Applied Science of Runtime Performance - Chrome Dev Summit 2014 (Paul Lewis)</a></li>
 			</ul>
 		</section>
 
